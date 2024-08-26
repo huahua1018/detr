@@ -15,7 +15,8 @@ from .backbone import build_backbone
 from .matcher import build_matcher
 from .segmentation import (DETRsegm, PostProcessPanoptic, PostProcessSegm,
                            dice_loss, sigmoid_focal_loss)
-from .transformer import build_transformer
+# from .transformer import build_transformer
+from .bra_transformer import build_transformer
 
 
 class DETR(nn.Module):
